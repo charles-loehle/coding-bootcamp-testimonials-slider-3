@@ -2,7 +2,12 @@ body {
   margin: 0;
   font-family: Helvetica;
   height: 100vh;
-}
+  background-image: url('./images/pattern-bg.svg'),
+  url('./images//pattern-curve.svg'), url('./images//pattern-quotes.svg');
+  background-repeat: no-repeat;
+  background-size: 86%, 80%, 19%;
+  background-position: 51% 4%, 1% 100%, 50% 43%;
+}  
  
 * {
     box-sizing: border-box;
@@ -17,7 +22,9 @@ img {
   max-width: 1113px;
   position: relative;
   margin: auto;
-  padding: 2em;
+  padding-top: 3.4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .mySlides {
@@ -137,7 +144,29 @@ img {
   }
 
   .text {
-    margin-top: 3.5rem;
+    margin-top: 4.9rem;
+  }
+}
+
+@media (min-width: 400px) {
+  body {
+    background-position: 51% 4%, 1% 100%, 50% 46%;
+  }
+
+  .button-container {
+    bottom: 45%;
+  }
+}
+
+@media (min-width: 500px) {
+  body {
+    background-position: 51% 4%, 1% 100%, 50% 52%;
+  }
+}
+
+@media (min-width: 550px) {
+  body {
+    background-position: 51% 4%, 1% 100%, 50% 60%;
   }
 }
 
@@ -146,6 +175,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-size: 56%, 80%, 11%;
+    background-position: 100% 50%, 1% 100%, 16% 42%;
+  }
+
+  .slideshow-container {
+    padding-top: 0;
   }
 
   .mySlides {
@@ -174,12 +209,17 @@ img {
 
   .button-container {
     position: absolute;
-    bottom: 6%;
+    bottom: -3%;
     left: 59%;
   }
 }
 
 @media (min-width: 900px) {
+  body {
+    background-size: 59%, 80%, 11%;
+    background-position: 100% 50%, 1% 100%, 16% 37%
+  }
+
   .text .description {
     font-size: 2rem;
   }
@@ -193,6 +233,27 @@ img {
   }
 
   .button-container {
-    bottom: 4%;
+    bottom: -2%;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-size: 53%, 35%, 8%;
+    background-position: 100% 49%, 0% 100%, 14% 35%;
+  }
+}
+
+@media (min-width: 1400px) {
+  body {
+    background-size: 46%, 29%, 6%;
+    background-position: 88% 49%, 0% 100%, 19% 35%;
+  }
+}
+
+@media (min-width: 1600px) {
+  body {
+    background-size: 39%, 27%, 5%;
+    background-position: 78% 49%, 0% 100%, 24% 35%;
   }
 }
