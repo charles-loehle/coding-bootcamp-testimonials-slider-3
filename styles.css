@@ -5,8 +5,8 @@ body {
   background-image: url('./images/pattern-bg.svg'),
   url('./images//pattern-curve.svg'), url('./images//pattern-quotes.svg');
   background-repeat: no-repeat;
-  background-size: 86%, 80%, 19%;
-  background-position: 51% 4%, 1% 100%, 50% 43%;
+  background-size: 86%, 80%, 18%;
+  background-position: 51% 4%, 1% 100%, 50% 65%;
 }  
  
 * {
@@ -151,10 +151,6 @@ img {
 }
 
 @media (min-width: 400px) {
-  body {
-    background-position: 51% 4%, 1% 100%, 50% 46%;
-  }
-
   .button-container {
     bottom: 45%;
   }
@@ -162,13 +158,13 @@ img {
 
 @media (min-width: 500px) {
   body {
-    background-position: 51% 4%, 1% 100%, 50% 52%;
+    background-position: 51% 4%, 1% 100%, 50% 77%;
   }
 }
 
 @media (min-width: 550px) {
   body {
-    background-position: 51% 4%, 1% 100%, 50% 60%;
+    background-position: 51% 4%, 1% 100%, 50% 83%;
   }
 }
 
@@ -177,8 +173,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-size: 56%, 80%, 11%;
-    background-position: 100% 50%, 1% 100%, 16% 42%;
+    background-size: 56%, 80%, 13%;
+    background-position: 100% 50%, 1% 100%, 16% 37%;
   }
 
   .slideshow-container {
@@ -219,8 +215,8 @@ img {
 
 @media (min-width: 900px) {
   body {
-    background-size: 59%, 80%, 11%;
-    background-position: 100% 50%, 1% 100%, 16% 37%
+    background-size: 59%, 80%, 10%;
+    background-position: 100% 50%, 1% 100%, 13% 30%;
   }
 
   .text .description {
@@ -242,21 +238,21 @@ img {
 
 @media (min-width: 1200px) {
   body {
-    background-size: 53%, 35%, 8%;
-    background-position: 100% 49%, 0% 100%, 14% 35%;
+    background-size: 53%, 35%, 6%;
+    background-position: 100% 49%, 0% 100%, 19% 26%;
   }
 }
 
 @media (min-width: 1400px) {
   body {
     background-size: 46%, 29%, 6%;
-    background-position: 88% 49%, 0% 100%, 19% 35%;
+    background-position: 88% 49%, 0% 100%, 19% 26%;
   }
 }
 
 @media (min-width: 1600px) {
   body {
-    background-size: 39%, 27%, 5%;
-    background-position: 78% 49%, 0% 100%, 24% 35%;
+    background-size: 39%, 27%, 6%;
+    background-position: 78% 49%, 0% 100%, 24% 26%;
   }
 }
