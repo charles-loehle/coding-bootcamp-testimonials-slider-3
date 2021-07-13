@@ -36,6 +36,7 @@ img {
   grid-column: 1;
   grid-row: 1;
   justify-self: center;
+  box-shadow: 23px 15px 11px 8px rgb(134 129 204 / 12%);
 }
 
 .button-container {
@@ -52,7 +53,7 @@ img {
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  background-color: rgb(216, 216, 216);
+  background-color: #fff;
   padding: 10px 14px;
 }
 
@@ -78,6 +79,7 @@ img {
 .text .description {
   font-size: 1.2rem;
   margin: 0;
+  color: #757575;
 }
 
 .text-title {
@@ -201,6 +203,7 @@ img {
 
   .text-title {
     display: inline-block;
+    margin-right: 0.5rem;
   }
   
   .text-muted {
